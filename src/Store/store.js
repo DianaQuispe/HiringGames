@@ -1,8 +1,7 @@
 import createStore from 'redux-zero';
 
 const initialState = {
-    gender: ["male", "female"], 
-    age: ["adult", "children", "baby"], 
+    title: "Create it"
 };
 
 const store = createStore(initialState);
