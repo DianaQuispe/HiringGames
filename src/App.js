@@ -9,7 +9,6 @@ import { HashRouter, Switch, Route, NavLink, Redirect } from "react-router-dom";
 
 const App = () => {
   return <Grid fluid>
-      <Menu />
       <HashRouter>
         <Switch>
           <Route name="menu" exact path="/" component={Menu} />
