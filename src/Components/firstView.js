@@ -14,16 +14,16 @@ export const Menu = () => {
 const SelectGender = () => {
     return (
         <Row>
-            <h2>Selecciona tu sexo</h2>
+            <h2>Selecciona tu sexo <i className="fa fa-venus fa-lg" /></h2>
             <Col md={6}>
                 <div className="selectGender-gender" onClick={()=>{console.log("male")}}>
-                    <i class="fa fa-mars" aria-hidden="true"></i>
+                    <i className="fa fa-mars" aria-hidden="true"></i>
                 </div>
                  
             </Col>
             <Col md={6}>
                 <div onClick={()=>{console.log("female")}}>
-                    <i class="fa fa-venus" aria-hidden="true"></i>
+                    <i className="fa fa-venus" aria-hidden="true"></i>
                 </div>
                 
             </Col>
