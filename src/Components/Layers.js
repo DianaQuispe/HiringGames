@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import "./styles/Layers.css";
+import "../styles/Layers.css";
 import { Grid, Row, Col } from "react-bootstrap";
 
 
 const Layers = () => {
-  return <div>
-      <Grid>
+  return <Grid fluid>
         <Row>
           <Col>
             <div className="nav-side-menu">
@@ -79,7 +78,6 @@ const Layers = () => {
             </div>
           </Col>
         </Row>
-      </Grid>
-    </div>;
+      </Grid>;
 }
 export default Layers;
